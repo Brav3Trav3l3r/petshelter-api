@@ -5,7 +5,7 @@ import {listPets, getPet, editPet, addPet, deletePet} from '../controllers/pets.
 
 router.get('/', listPets)
 router.get('/:id', getPet)
-router.put('/:id', listPets)
+router.put('/:id', editPet)
 router.post('/', addPet)
 router.delete('/:id', deletePet)
 
